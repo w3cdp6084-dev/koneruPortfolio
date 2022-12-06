@@ -1,15 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  content: [],
-  darkMode: false,
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
-    extend: {
-      fontFamily: {
-        rock: ["-apple-system"],
-      },
-    },
+    extend: {},
   },
-  variants: {},
-  plugins: [],
+  plugins: [
+  ],
+  darkMode: 'class',
 }
