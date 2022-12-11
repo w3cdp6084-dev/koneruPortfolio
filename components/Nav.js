@@ -14,8 +14,8 @@ const variants = {
 const Items = [
   { id: "0", text: "Home", icon: "🏠" },
   { id: "1", text: "About", icon: "ℹ️" },
-  { id: "2", text: "Projects", icon: "💻" },
-  { id: "3", text: "Blogs", icon: "✍️" },
+  { id: "2", text: "Product", icon: "💻" },
+  { id: "3", text: "Blog", icon: "✍️" },
   { id: "4", text: "Contact", icon: "📧" }
 ];
 
